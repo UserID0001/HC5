@@ -1,0 +1,275 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "592049",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e790",
+      "unicode_decimal": 59280
+    },
+    {
+      "icon_id": "639097",
+      "name": "jyoujiantou",
+      "font_class": "jyoujiantou",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "1078963",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e6b5",
+      "unicode_decimal": 59061
+    },
+    {
+      "icon_id": "1239935",
+      "name": "对号2",
+      "font_class": "duihao2",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "1718321",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "f0343",
+      "unicode_decimal": 983875
+    },
+    {
+      "icon_id": "2488825",
+      "name": "48银行卡",
+      "font_class": "yinhangqia",
+      "unicode": "e936",
+      "unicode_decimal": 59702
+    },
+    {
+      "icon_id": "2512744",
+      "name": "BAI-上箭头",
+      "font_class": "BAI-shangjiantou",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "2674473",
+      "name": "关闭",
+      "font_class": "guanbi1",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "4118038",
+      "name": "关闭",
+      "font_class": "guanbi2",
+      "unicode": "eb6a",
+      "unicode_decimal": 60266
+    },
+    {
+      "icon_id": "4175512",
+      "name": "上箭头",
+      "font_class": "shangjiantou",
+      "unicode": "eb6d",
+      "unicode_decimal": 60269
+    },
+    {
+      "icon_id": "4189105",
+      "name": "AK-MN_电话_fill",
+      "font_class": "mn_dianhua_fill",
+      "unicode": "e5b7",
+      "unicode_decimal": 58807
+    },
+    {
+      "icon_id": "4880015",
+      "name": "返回",
+      "font_class": "fanhui1",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "5199427",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "5387519",
+      "name": "对号",
+      "font_class": "duihao",
+      "unicode": "eaf1",
+      "unicode_decimal": 60145
+    },
+    {
+      "icon_id": "5387521",
+      "name": "菜单",
+      "font_class": "caidan1",
+      "unicode": "eaf2",
+      "unicode_decimal": 60146
+    },
+    {
+      "icon_id": "5387850",
+      "name": "菜单_o",
+      "font_class": "caidan_o",
+      "unicode": "eb71",
+      "unicode_decimal": 60273
+    },
+    {
+      "icon_id": "5809198",
+      "name": "上箭头",
+      "font_class": "shangjiantou1",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "5809199",
+      "name": "上箭头1",
+      "font_class": "shangjiantou2",
+      "unicode": "e693",
+      "unicode_decimal": 59027
+    },
+    {
+      "icon_id": "6337688",
+      "name": "返回",
+      "font_class": "fanhui2",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "6616997",
+      "name": "关闭",
+      "font_class": "guanbi3",
+      "unicode": "eca0",
+      "unicode_decimal": 60576
+    },
+    {
+      "icon_id": "7108038",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e6c0",
+      "unicode_decimal": 59072
+    },
+    {
+      "icon_id": "7372237",
+      "name": "返回",
+      "font_class": "fanhui3",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "7677928",
+      "name": "关闭",
+      "font_class": "guanbi4",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "8338693",
+      "name": "银行卡",
+      "font_class": "yinhangqia1",
+      "unicode": "e6c9",
+      "unicode_decimal": 59081
+    },
+    {
+      "icon_id": "11613954",
+      "name": "银行卡",
+      "font_class": "yinhangka",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "12089100",
+      "name": "上箭头",
+      "font_class": "arrow_up_fat",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "12123415",
+      "name": "气泡向上箭头",
+      "font_class": "bubble_arrow_up",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "12191810",
+      "name": "试剂验收",
+      "font_class": "shijiyanshou",
+      "unicode": "e710",
+      "unicode_decimal": 59152
+    },
+    {
+      "icon_id": "12247926",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "13017526",
+      "name": "健康卡",
+      "font_class": "jiankangka",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "13474449",
+      "name": "上箭头",
+      "font_class": "shangjiantou3",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "15726884",
+      "name": "上箭头",
+      "font_class": "shangjiantou4",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "23290913",
+      "name": "试剂组套维护",
+      "font_class": "shijizutaoweihu",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "23713924",
+      "name": "上箭头",
+      "font_class": "shangjiantou5",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "23995194",
+      "name": "银行卡",
+      "font_class": "yinhangka1",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "24816084",
+      "name": "疫苗接种",
+      "font_class": "yimiaojiezhong",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "26923933",
+      "name": "疫苗接种",
+      "font_class": "yimiaojiezhongsvg",
+      "unicode": "e837",
+      "unicode_decimal": 59447
+    },
+    {
+      "icon_id": "28427037",
+      "name": "隐藏",
+      "font_class": "yincang",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    }
+  ]
+}
