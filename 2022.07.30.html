@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html class="pixel-ratio-1">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta http-equiv="pragram" content="no-cache">
+            <!-- webApp全屏显示，IOS设备 -->
+            <meta name='apple-mobile-web-app-capable' content='yes' />
+            <!-- 通用的浏览器 -->
+            <meta name='full-screen' content='true' />
+            <!-- QQ浏览器（X5内核）独有的META -->
+            <meta name='x5-fullscreen' content='true' />
+            <!-- 360浏览器独有的 -->
+            <meta name='360-fullscreen' content='true' />
+            <title>河南省疫情防控场所码</title>
+            <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+            <link rel="stylesheet" href="./css/2022.07.30.css">
+            <link rel="stylesheet" href="./css/font_1629426_a0wa7qco4b8.css">
+        </head>
+<body>
+  <div id="div1">
+    <select id="AreaId" name="AreaId" size="1" class="sel">
+      <option value="1" id="option1">郑州大学第三附属医院（河南省妇幼保健院）</option>
+      <option value="2">郑州大学第三附属医院南院区病患通道</option>
+      <option value="3">金阳光居易</option>
+      <option value="4">雨溪生活超市天明路店</option>
+      <option value="5">雨溪日用品便利店</option>
+      <option value="6">郑州车站东北出口</option>
+      <option value="7">岳砦农贸市场（1）号门</option>
+      <option value="8">岳砦农贸市场（2）号门</option>
+      <option value="9">岳砦农贸市场（3）号门</option>
+    </select>
+    <button id="btn1">确定</button><br/>
+    <input type="text" id="areaName" name="areaName" placeholder="请输入地址并点击确定" size="30" style="width:200px; height:20px;" ><br/>
+    <button id="btn2">确定</button>
+  </div>
+  <div id="title">
+    <span class="iconfont" id="title1">&#xf0343;</span>
+    <span class="iconfont" id="title2">&#xeca0;</span>
+    <span id="title3">河南省疫情防控场所码</span>
+  </div>
+  <div class="upperBody">
+    <div id="placename">
+      <span id="placename1"></span>
+    </div>
+    <div id="wave1"></div>
+    <div id="wave2"></div>
+    <div id="time">
+      <div id="MyDateDisplay" class="dateDisplay">
+      </div>
+      <div id="MyClockDisplay" class="ClockDisplay">
+      </div>
+    </div>
+  </div>
+  <div id="middle">
+    <div id="personInfo">
+      <div id="personName">
+        <span id="personName1">王*</span>
+      </div>
+      <div id="personId">
+      <span id="personId1">420***********0018</span> <span class="iconfont" id="hideandshow">&#xe611;</span>
+      </div>
+    </div>
+    <div id="medicalInfo">
+      <div id="hesuan">
+        <div id="hesuan1">核酸检测结果</div>
+        <div id="hesuan2">
+          <div id="hesuan2a">24</div>
+          <div id="hesuan2b">
+            <div>小时内</div>
+            <div>阴性</div>
+          </div>
+        </div>
+      </div>
+      <div id="yimiao">
+        <p id="yimiao1">疫苗接种</p>
+        <span class="yimiao2">已接种</span><span id="three"> 3 </span><span class="yimiao2">针剂</span>
+      </div>
+    </div>
+   </div>
+  <div id="lowerBody">
+    <div id="lowerBodyWrapper">
+      <div id="lowerBody1">
+        <span id="lowerBody1a">最近核酸检测</span>
+        <span id="lowerBody1b">采样时间</span>
+        <span id="lowerBody1c"></span>
+      </div>
+      <div id="lowerBody2">
+        <p id="lowerBody2a">距到期还剩</p>
+        <span class="lowerBody2b"></span>小时<span class="lowerBody2b"></span>分
+      </div>
+    </div>
+  </div>
+  <button id="tripCard" onclick="window.location.href='http://userid0001.github.io/TC'">查看行程卡
+  </button>
+  <!--  
+    <script type="text/javascript" src="./js/inputInfo.js"></script>
+    
+  -->
+  <script type="text/javascript" src="./js/area.js"></script>
+  <script type='text/javascript' src='./js/date.js' charset='utf-8'></script>
+  <script type='text/javascript' src='./js/time.js' charset='utf-8'></script>
+  <script type="text/javascript" src="./js/date2.js"></script>
+  <script type="text/javascript" src="./js/timeleft.js"></script>
+
+<!--   
+        <ul id="OtherTagsWrapper" class="other-tags-list">
+        <li class="tags-list-item">
+          <div class="tags-left">
+            <img src='./images/acid-icon.png' alt="acid">
+            <span i18n-content="核酸">核酸</span>
+          </div>
+          <span id="acid-result-label" class="tags-result">阴性</span>
+          <div id="acid-result-aging" class="tags-right"><span id="time24">24</span>小时</div>
+        </li>
+        <li class="tags-list-item">
+          <div class="tags-left">
+            <img src='./images/vaccine-icon.png' alt="vaccine">
+            <span i18n-content="疫苗">疫苗</span>
+          </div>
+          <div id="vaccine-result" class="tags-right">已接种</div>
+        </li>
+      </ul>
+      <div id="tips">温馨提示：反映近48小时内最近一次核酸检测情况，数据由各检测单位陆续上报，不断汇聚和完善中。
+      </div>
+    -->
+    
+    <!--<script type='text/javascript' src='./js/water.js?v=1' charset='utf-8'></script>-->
+</body>
+</html>
