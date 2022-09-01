@@ -1,0 +1,24 @@
+
+.ClockDisplay{
+    display: inline-block;
+    color: #000;
+    vertical-align: top;
+    font-size: 61px;
+    height: 52px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: PingFangSC-Semibold, PingFang SC, "Helvetica Neue", Helvetica, sans-serif;
+    letter-spacing:2px
+}    
+  
+
+.DateDisplay {
+    margin-top: 0.5rem;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 550;
+    color: #e80808;
+    text-align: center;
+}
+
+

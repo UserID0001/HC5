@@ -1,0 +1,448 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.ttf?t=1654494372939') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-size: 16px;
+}
+/*
+.upperBody::after{
+  content: "";
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  padding: 0 0 70.4% 0;
+  box-sizing: border-box;
+}
+*/
+
+#div1{
+  font-size: 20px;
+  margin-top: 200px;
+}
+
+#btn1, #btn2{
+  font-size: 20px;
+  padding: 10px 30px;
+}
+
+#AreaId{
+  font-size: 20px;
+}
+#title{
+  height: 3rem;
+  background-color: white;
+  line-height: 3rem;
+  font-size: 1.1rem;
+}
+
+#title1{
+  margin-left: 15px;
+}
+
+#title1, #title2{
+  font-size: 1.2rem;
+}
+
+.upperBody{
+  font-family: PingFangSC-Regular;
+  position: relative;
+  width: 100%;
+  height: 28.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url(../images/green-bg.png?v=1) !important;
+}
+
+#placename {
+  color: white;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  font-family: PingFangSC-Regular;
+  margin-top: 8vh;
+}
+
+#time{
+  position: absolute;
+  width: 90vw;
+  height: 13.5vh;
+  background-color: white;
+  margin-top: 19.5vh;
+  margin-bottom: 10vh;
+  border-radius: 10px;
+}
+
+#wave1{
+  position: absolute;
+  width: 100%;
+  height: 304px;
+  bottom: 0;
+  left: 0;
+  opacity: 0.15;
+  background: url(../images/wavex.png);
+  animation: animate 12s linear infinite;
+}
+
+#wave2{
+  position: absolute;
+  width: 100%;
+  height: 304px;
+  bottom: 0px;
+  left: 0;
+  opacity: 0.12;
+  background: url(../images/wavey.png);
+  animation: animate-reverse 10s linear infinite;
+}
+
+@keyframes animate{
+  0%{
+      background-position: 0;
+  }
+  100%{
+      background-position: 1562px;
+  }
+}
+
+@keyframes animate-reverse{
+  0%{
+      background-position: 200px;
+  }
+  100%{
+      background-position: 1761px;
+  }
+}
+
+.dateDisplay {
+  padding-top: 10px;
+  line-height: 25px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #6C6C6C;
+}
+
+.ClockDisplay{
+  padding-top: 10px;
+  font-size: 61px;
+  height: 52px;
+  line-height: 50px;
+  font-weight: 700;
+  font-family: PingFangSC-Semibold, PingFang SC, "Helvetica Neue", Helvetica, sans-serif;
+  letter-spacing: 4px;
+  box-shadow: #01B72F 1px;
+}    
+
+#middle{
+  width: 90vw;
+  height: 26.5vh;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 60px;
+  border-radius: 10px;
+  font-family: PingFangSC-Regular;
+}
+
+#personInfo{
+  width: 82vw;
+  margin: 0 auto;
+  border-bottom: 1px 	#F0F0F0 solid;
+}
+
+#personName{
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 2px;
+  font-family: PingFangSC-Regular;
+}
+
+#personId{
+  margin-bottom: 8px;
+  color: #6C6C6C;
+}
+
+#medicalInfo{
+  width: 82vw;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+#hesuan, #yimiao{
+  width: 39vw;
+  height: 13vh;
+  border-radius: 5px;
+}
+
+#hesuan{
+  background-color: white;
+  background-image: linear-gradient(225deg, #92e97f, #31c564);
+  float: left;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#hesuan1{
+  font-weight: 700;
+}
+
+#hesuan2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+#hesuan2a{
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+#hesuan2b{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+}
+
+#yimiao{
+  background-color: #f5fafe;
+  float: right;
+  text-align: center;
+}
+
+#yimiao1{
+  font-weight: 700;
+}
+
+.yimiao2{
+  color: #3cbaf9;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+#three{
+  font-weight: 700;
+  font-size: 2rem;
+  color: #3cbaf9;
+}
+
+#lowerBody{
+  width: 90vw;
+  height: 13vh;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#lowerBodyWrapper{
+  width: 82vw;
+  height: 12vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#lowerBody1{
+ width: 39vw;
+ height: 12vh;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+
+#lowerBody1a, #lowerBody2a{
+  font-weight: 800;
+}
+
+#lowerBody1b{
+  color: #3cbaf9;
+  border: 1px solid #3cbaf9;
+  border-radius: 20px;
+  line-height: 1.7em;
+  width: 90px;
+  margin: 0 auto;
+}
+
+#lowerBody2{
+  width: 39vw;
+  height: 12vh;
+  border-radius: 5px;
+  background: #f5fafe;
+  color: #3cbaf9;
+  font-weight: 600;
+  text-align: center;
+}
+
+.lowerBody2b{
+  font-size: 1.5rem;
+}
+/*
+#myClockDisplay{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: 1px solid red;
+  display: inline-block;
+  color: red;
+  vertical-align: top;
+  font-size: 52px;
+  height: 52px;
+  line-height: 52px;
+  font-weight: 500;
+  font-family: PingFangSC-Semibold, PingFang SC, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+#MyDateDisplay{
+  width: 250px;
+  height: 50px;
+  border: 1px solid red;
+  border-radius: 4px;
+  text-align: center;
+  color: #6C6C6C;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 500;
+}
+*/
+
+/*
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+  font-family: PingFangSC-Regular;
+  color: #151515;
+  text-align: center;
+  line-height: 40px;
+  font-size: 1.3rem;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 4.75rem;
+}
+*/
+
+#tripCard{
+  width: 60vw;
+  height: 3rem;
+  font-size: 1.2rem;
+  border-radius: 22px;
+  background-color: white;
+  margin-left: 20vw;
+  margin-top: 20px;
+  color: #2BC150;
+  border: 1px solid #2BC150;
+}
+
+.other-tags-list {
+  margin: 1.3rem 1.3rem 0 1.3rem;
+  padding: 0 0.3rem;
+  background-color: #ffffff;
+  border-radius: 4px;
+  font-family: PingFangSC-Regular;
+}
+.other-tags-list .tags-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.29rem 0.5rem;
+  font-size: 18px;
+  color: #222222;
+  line-height: 25px;
+  border-top: 1px solid #E8E8E8;
+}
+.other-tags-list .tags-list-item:first-of-type {
+  border-top: none;
+}
+.tags-list-item .tags-left {
+  display: flex;
+  align-items: center;
+}
+.tags-left img {
+  margin-right: 3px;
+  width: 2.2rem;
+  height: 2.65rem;
+}
+.tags-list-item .tags-result {
+  font-weight: 500;
+}
+.tags-list-item .tags-result.green {
+  color: #01B72F;
+}
+.tags-list-item .tags-right {
+  display: flex;
+  align-items: center;
+}
+.tags-list-item .tags-right.inoculated{
+  color: #01B72F;
+  font-weight: 500;
+}
+.tags-list-item .tags-right .tags-right-stress {
+  margin-right: 3px;
+  font-weight: 500;
+  font-size: 25px;
+  color: #01B72F;
+  line-height: 35px;
+}
+.acid-desc {
+  display: flex;
+  margin-top: 0.5rem;
+  font-size: 12px;
+  color: #222222;
+  line-height: 18px;
+}
+.acid-desc b {
+  white-space: nowrap;
+}
+
+#acid-result-label, #vaccine-result{
+  color: #01B72F;
+}
+
+#time24{
+  margin-right: 3px;
+  font-weight: 500;
+  font-size: 25px;
+  color: #01B72F;
+  line-height: 35px;
+}
+
+#tips{
+  display: flex;
+  padding: 0;
+  font-size: 0.85rem;
+  color: #6C6C6C;
+  margin: 1.3rem 1.3rem 0 1.3rem;
+  letter-spacing: 1px;
+}
